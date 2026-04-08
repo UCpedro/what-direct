@@ -30,33 +30,7 @@
 		WD0000000000000000000122 /* RecentSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000223 /* RecentSectionView.swift */; };
 		WD0000000000000000000123 /* TemplateManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000224 /* TemplateManagerView.swift */; };
 		WD0000000000000000000124 /* NoteEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000225 /* NoteEditorView.swift */; };
-		WD0000000000000000000125 /* WhatDirectQuickWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000228 /* WhatDirectQuickWidget.swift */; };
-		WD0000000000000000000126 /* What Direct Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000226 /* What Direct Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		WD0000000000000000000301 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = WD0000000000000000000001 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = WD0000000000000000000501;
-			remoteInfo = "What Direct Widget";
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		WD0000000000000000000411 /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				WD0000000000000000000126 /* What Direct Widget.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		WD0000000000000000000200 /* What Direct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "What Direct.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,20 +58,10 @@
 		WD0000000000000000000223 /* RecentSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentSectionView.swift; sourceTree = "<group>"; };
 		WD0000000000000000000224 /* TemplateManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateManagerView.swift; sourceTree = "<group>"; };
 		WD0000000000000000000225 /* NoteEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEditorView.swift; sourceTree = "<group>"; };
-		WD0000000000000000000226 /* What Direct Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "What Direct Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		WD0000000000000000000227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		WD0000000000000000000228 /* WhatDirectQuickWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatDirectQuickWidget.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		WD0000000000000000000601 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		WD0000000000000000000602 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -111,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				WD0000000000000000000402 /* What Direct */,
-				WD0000000000000000000403 /* What Direct Widget */,
 				WD0000000000000000000401 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -120,7 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				WD0000000000000000000200 /* What Direct.app */,
-				WD0000000000000000000226 /* What Direct Widget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,15 +98,6 @@
 				WD0000000000000000000408 /* Resources */,
 			);
 			path = "What Direct";
-			sourceTree = "<group>";
-		};
-		WD0000000000000000000403 /* What Direct Widget */ = {
-			isa = PBXGroup;
-			children = (
-				WD0000000000000000000228 /* WhatDirectQuickWidget.swift */,
-				WD0000000000000000000227 /* Info.plist */,
-			);
-			path = "What Direct Widget";
 			sourceTree = "<group>";
 		};
 		WD0000000000000000000404 /* Views */ = {
@@ -231,34 +184,15 @@
 				WD0000000000000000000701 /* Sources */,
 				WD0000000000000000000601 /* Frameworks */,
 				WD0000000000000000000801 /* Resources */,
-				WD0000000000000000000411 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				WD0000000000000000001001 /* PBXTargetDependency */,
 			);
 			name = "What Direct";
 			productName = "What Direct";
 			productReference = WD0000000000000000000200 /* What Direct.app */;
 			productType = "com.apple.product-type.application";
-		};
-		WD0000000000000000000501 /* What Direct Widget */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = WD0000000000000000000902 /* Build configuration list for PBXNativeTarget "What Direct Widget" */;
-			buildPhases = (
-				WD0000000000000000000702 /* Sources */,
-				WD0000000000000000000602 /* Frameworks */,
-				WD0000000000000000000802 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "What Direct Widget";
-			productName = "What Direct Widget";
-			productReference = WD0000000000000000000226 /* What Direct Widget.appex */;
-			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -271,9 +205,6 @@
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					WD0000000000000000000500 = {
-						CreatedOnToolsVersion = 16.0;
-					};
-					WD0000000000000000000501 = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
@@ -292,7 +223,6 @@
 			projectRoot = "";
 			targets = (
 				WD0000000000000000000500 /* What Direct */,
-				WD0000000000000000000501 /* What Direct Widget */,
 			);
 		};
 /* End PBXProject section */
@@ -303,13 +233,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				WD0000000000000000000107 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		WD0000000000000000000802 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,23 +268,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		WD0000000000000000000702 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				WD0000000000000000000125 /* WhatDirectQuickWidget.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		WD0000000000000000001001 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = WD0000000000000000000501 /* What Direct Widget */;
-			targetProxy = WD0000000000000000000301 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		WD0000000000000000001101 /* Debug */ = {
@@ -445,60 +352,6 @@
 			};
 			name = Release;
 		};
-		WD0000000000000000001121 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 69SKD4YG4H;
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "What Direct Widget/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pedrosanmiguel.WhatDirect.Widget;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Debug;
-		};
-		WD0000000000000000001122 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 69SKD4YG4H;
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "What Direct Widget/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pedrosanmiguel.WhatDirect.Widget;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -516,15 +369,6 @@
 			buildConfigurations = (
 				WD0000000000000000001111 /* Debug */,
 				WD0000000000000000001112 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		WD0000000000000000000902 /* Build configuration list for PBXNativeTarget "What Direct Widget" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				WD0000000000000000001121 /* Debug */,
-				WD0000000000000000001122 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
