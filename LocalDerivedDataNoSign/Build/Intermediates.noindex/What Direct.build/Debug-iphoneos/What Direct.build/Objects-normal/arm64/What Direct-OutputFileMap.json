@@ -1,0 +1,348 @@
+{
+  "" : {
+    "diagnostics" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/What Direct-master.dia",
+    "emit-module-dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/What Direct-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/What Direct-master-emit-module.dia",
+    "swift-dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/What Direct-master.swiftdeps"
+  },
+  "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Models/AppSettings.swift" : {
+    "const-values" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/AppSettings.swiftconstvalues",
+    "dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/AppSettings.d",
+    "diagnostics" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/AppSettings.dia",
+    "index-unit-output-path" : "/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/AppSettings.o",
+    "llvm-bc" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/AppSettings.bc",
+    "object" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/AppSettings.o",
+    "swift-dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/AppSettings.swiftdeps",
+    "swiftmodule" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/AppSettings~partial.swiftmodule"
+  },
+  "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Models/Country.swift" : {
+    "const-values" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/Country.swiftconstvalues",
+    "dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/Country.d",
+    "diagnostics" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/Country.dia",
+    "index-unit-output-path" : "/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/Country.o",
+    "llvm-bc" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/Country.bc",
+    "object" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/Country.o",
+    "swift-dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/Country.swiftdeps",
+    "swiftmodule" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/Country~partial.swiftmodule"
+  },
+  "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Models/MessageTemplate.swift" : {
+    "const-values" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/MessageTemplate.swiftconstvalues",
+    "dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/MessageTemplate.d",
+    "diagnostics" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/MessageTemplate.dia",
+    "index-unit-output-path" : "/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/MessageTemplate.o",
+    "llvm-bc" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/MessageTemplate.bc",
+    "object" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/MessageTemplate.o",
+    "swift-dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/MessageTemplate.swiftdeps",
+    "swiftmodule" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/MessageTemplate~partial.swiftmodule"
+  },
+  "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Models/RecentEntry.swift" : {
+    "const-values" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentEntry.swiftconstvalues",
+    "dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentEntry.d",
+    "diagnostics" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentEntry.dia",
+    "index-unit-output-path" : "/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentEntry.o",
+    "llvm-bc" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentEntry.bc",
+    "object" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentEntry.o",
+    "swift-dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentEntry.swiftdeps",
+    "swiftmodule" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentEntry~partial.swiftmodule"
+  },
+  "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Models/SavedContact.swift" : {
+    "const-values" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SavedContact.swiftconstvalues",
+    "dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SavedContact.d",
+    "diagnostics" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SavedContact.dia",
+    "index-unit-output-path" : "/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SavedContact.o",
+    "llvm-bc" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SavedContact.bc",
+    "object" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SavedContact.o",
+    "swift-dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SavedContact.swiftdeps",
+    "swiftmodule" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SavedContact~partial.swiftmodule"
+  },
+  "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Models/WhatsAppPayload.swift" : {
+    "const-values" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/WhatsAppPayload.swiftconstvalues",
+    "dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/WhatsAppPayload.d",
+    "diagnostics" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/WhatsAppPayload.dia",
+    "index-unit-output-path" : "/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/WhatsAppPayload.o",
+    "llvm-bc" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/WhatsAppPayload.bc",
+    "object" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/WhatsAppPayload.o",
+    "swift-dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/WhatsAppPayload.swiftdeps",
+    "swiftmodule" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/WhatsAppPayload~partial.swiftmodule"
+  },
+  "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Utils/ClipboardManager.swift" : {
+    "const-values" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ClipboardManager.swiftconstvalues",
+    "dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ClipboardManager.d",
+    "diagnostics" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ClipboardManager.dia",
+    "index-unit-output-path" : "/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ClipboardManager.o",
+    "llvm-bc" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ClipboardManager.bc",
+    "object" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ClipboardManager.o",
+    "swift-dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ClipboardManager.swiftdeps",
+    "swiftmodule" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ClipboardManager~partial.swiftmodule"
+  },
+  "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Utils/ConversationLauncher.swift" : {
+    "const-values" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ConversationLauncher.swiftconstvalues",
+    "dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ConversationLauncher.d",
+    "diagnostics" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ConversationLauncher.dia",
+    "index-unit-output-path" : "/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ConversationLauncher.o",
+    "llvm-bc" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ConversationLauncher.bc",
+    "object" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ConversationLauncher.o",
+    "swift-dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ConversationLauncher.swiftdeps",
+    "swiftmodule" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ConversationLauncher~partial.swiftmodule"
+  },
+  "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Utils/CountryDetector.swift" : {
+    "const-values" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/CountryDetector.swiftconstvalues",
+    "dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/CountryDetector.d",
+    "diagnostics" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/CountryDetector.dia",
+    "index-unit-output-path" : "/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/CountryDetector.o",
+    "llvm-bc" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/CountryDetector.bc",
+    "object" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/CountryDetector.o",
+    "swift-dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/CountryDetector.swiftdeps",
+    "swiftmodule" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/CountryDetector~partial.swiftmodule"
+  },
+  "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Utils/Haptics.swift" : {
+    "const-values" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/Haptics.swiftconstvalues",
+    "dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/Haptics.d",
+    "diagnostics" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/Haptics.dia",
+    "index-unit-output-path" : "/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/Haptics.o",
+    "llvm-bc" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/Haptics.bc",
+    "object" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/Haptics.o",
+    "swift-dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/Haptics.swiftdeps",
+    "swiftmodule" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/Haptics~partial.swiftmodule"
+  },
+  "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Utils/PhoneNumberFormatter.swift" : {
+    "const-values" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/PhoneNumberFormatter.swiftconstvalues",
+    "dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/PhoneNumberFormatter.d",
+    "diagnostics" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/PhoneNumberFormatter.dia",
+    "index-unit-output-path" : "/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/PhoneNumberFormatter.o",
+    "llvm-bc" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/PhoneNumberFormatter.bc",
+    "object" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/PhoneNumberFormatter.o",
+    "swift-dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/PhoneNumberFormatter.swiftdeps",
+    "swiftmodule" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/PhoneNumberFormatter~partial.swiftmodule"
+  },
+  "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Utils/RecentHistoryStore.swift" : {
+    "const-values" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentHistoryStore.swiftconstvalues",
+    "dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentHistoryStore.d",
+    "diagnostics" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentHistoryStore.dia",
+    "index-unit-output-path" : "/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentHistoryStore.o",
+    "llvm-bc" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentHistoryStore.bc",
+    "object" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentHistoryStore.o",
+    "swift-dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentHistoryStore.swiftdeps",
+    "swiftmodule" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentHistoryStore~partial.swiftmodule"
+  },
+  "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Utils/SavedContactsStore.swift" : {
+    "const-values" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SavedContactsStore.swiftconstvalues",
+    "dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SavedContactsStore.d",
+    "diagnostics" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SavedContactsStore.dia",
+    "index-unit-output-path" : "/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SavedContactsStore.o",
+    "llvm-bc" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SavedContactsStore.bc",
+    "object" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SavedContactsStore.o",
+    "swift-dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SavedContactsStore.swiftdeps",
+    "swiftmodule" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SavedContactsStore~partial.swiftmodule"
+  },
+  "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Utils/SettingsStore.swift" : {
+    "const-values" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SettingsStore.swiftconstvalues",
+    "dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SettingsStore.d",
+    "diagnostics" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SettingsStore.dia",
+    "index-unit-output-path" : "/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SettingsStore.o",
+    "llvm-bc" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SettingsStore.bc",
+    "object" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SettingsStore.o",
+    "swift-dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SettingsStore.swiftdeps",
+    "swiftmodule" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SettingsStore~partial.swiftmodule"
+  },
+  "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Utils/TemplateStore.swift" : {
+    "const-values" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplateStore.swiftconstvalues",
+    "dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplateStore.d",
+    "diagnostics" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplateStore.dia",
+    "index-unit-output-path" : "/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplateStore.o",
+    "llvm-bc" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplateStore.bc",
+    "object" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplateStore.o",
+    "swift-dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplateStore.swiftdeps",
+    "swiftmodule" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplateStore~partial.swiftmodule"
+  },
+  "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Utils/WhatsAppURLBuilder.swift" : {
+    "const-values" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/WhatsAppURLBuilder.swiftconstvalues",
+    "dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/WhatsAppURLBuilder.d",
+    "diagnostics" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/WhatsAppURLBuilder.dia",
+    "index-unit-output-path" : "/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/WhatsAppURLBuilder.o",
+    "llvm-bc" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/WhatsAppURLBuilder.bc",
+    "object" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/WhatsAppURLBuilder.o",
+    "swift-dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/WhatsAppURLBuilder.swiftdeps",
+    "swiftmodule" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/WhatsAppURLBuilder~partial.swiftmodule"
+  },
+  "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/ViewModels/HomeViewModel.swift" : {
+    "const-values" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/HomeViewModel.swiftconstvalues",
+    "dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/HomeViewModel.d",
+    "diagnostics" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/HomeViewModel.dia",
+    "index-unit-output-path" : "/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/HomeViewModel.o",
+    "llvm-bc" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/HomeViewModel.bc",
+    "object" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/HomeViewModel.o",
+    "swift-dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/HomeViewModel.swiftdeps",
+    "swiftmodule" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/HomeViewModel~partial.swiftmodule"
+  },
+  "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Views/Components/ClipboardSuggestionCard.swift" : {
+    "const-values" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ClipboardSuggestionCard.swiftconstvalues",
+    "dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ClipboardSuggestionCard.d",
+    "diagnostics" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ClipboardSuggestionCard.dia",
+    "index-unit-output-path" : "/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ClipboardSuggestionCard.o",
+    "llvm-bc" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ClipboardSuggestionCard.bc",
+    "object" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ClipboardSuggestionCard.o",
+    "swift-dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ClipboardSuggestionCard.swiftdeps",
+    "swiftmodule" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ClipboardSuggestionCard~partial.swiftmodule"
+  },
+  "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Views/Components/FavoriteNumbersView.swift" : {
+    "const-values" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/FavoriteNumbersView.swiftconstvalues",
+    "dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/FavoriteNumbersView.d",
+    "diagnostics" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/FavoriteNumbersView.dia",
+    "index-unit-output-path" : "/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/FavoriteNumbersView.o",
+    "llvm-bc" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/FavoriteNumbersView.bc",
+    "object" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/FavoriteNumbersView.o",
+    "swift-dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/FavoriteNumbersView.swiftdeps",
+    "swiftmodule" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/FavoriteNumbersView~partial.swiftmodule"
+  },
+  "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Views/Components/QuickActionBarView.swift" : {
+    "const-values" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/QuickActionBarView.swiftconstvalues",
+    "dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/QuickActionBarView.d",
+    "diagnostics" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/QuickActionBarView.dia",
+    "index-unit-output-path" : "/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/QuickActionBarView.o",
+    "llvm-bc" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/QuickActionBarView.bc",
+    "object" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/QuickActionBarView.o",
+    "swift-dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/QuickActionBarView.swiftdeps",
+    "swiftmodule" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/QuickActionBarView~partial.swiftmodule"
+  },
+  "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Views/Components/RecentSectionView.swift" : {
+    "const-values" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentSectionView.swiftconstvalues",
+    "dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentSectionView.d",
+    "diagnostics" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentSectionView.dia",
+    "index-unit-output-path" : "/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentSectionView.o",
+    "llvm-bc" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentSectionView.bc",
+    "object" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentSectionView.o",
+    "swift-dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentSectionView.swiftdeps",
+    "swiftmodule" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentSectionView~partial.swiftmodule"
+  },
+  "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Views/Components/TemplatePickerView.swift" : {
+    "const-values" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplatePickerView.swiftconstvalues",
+    "dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplatePickerView.d",
+    "diagnostics" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplatePickerView.dia",
+    "index-unit-output-path" : "/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplatePickerView.o",
+    "llvm-bc" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplatePickerView.bc",
+    "object" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplatePickerView.o",
+    "swift-dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplatePickerView.swiftdeps",
+    "swiftmodule" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplatePickerView~partial.swiftmodule"
+  },
+  "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Views/CountryPickerView.swift" : {
+    "const-values" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/CountryPickerView.swiftconstvalues",
+    "dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/CountryPickerView.d",
+    "diagnostics" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/CountryPickerView.dia",
+    "index-unit-output-path" : "/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/CountryPickerView.o",
+    "llvm-bc" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/CountryPickerView.bc",
+    "object" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/CountryPickerView.o",
+    "swift-dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/CountryPickerView.swiftdeps",
+    "swiftmodule" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/CountryPickerView~partial.swiftmodule"
+  },
+  "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Views/HistoryView.swift" : {
+    "const-values" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/HistoryView.swiftconstvalues",
+    "dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/HistoryView.d",
+    "diagnostics" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/HistoryView.dia",
+    "index-unit-output-path" : "/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/HistoryView.o",
+    "llvm-bc" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/HistoryView.bc",
+    "object" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/HistoryView.o",
+    "swift-dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/HistoryView.swiftdeps",
+    "swiftmodule" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/HistoryView~partial.swiftmodule"
+  },
+  "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Views/HomeView.swift" : {
+    "const-values" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/HomeView.swiftconstvalues",
+    "dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/HomeView.d",
+    "diagnostics" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/HomeView.dia",
+    "index-unit-output-path" : "/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/HomeView.o",
+    "llvm-bc" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/HomeView.bc",
+    "object" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/HomeView.o",
+    "swift-dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/HomeView.swiftdeps",
+    "swiftmodule" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/HomeView~partial.swiftmodule"
+  },
+  "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Views/RootTabView.swift" : {
+    "const-values" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RootTabView.swiftconstvalues",
+    "dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RootTabView.d",
+    "diagnostics" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RootTabView.dia",
+    "index-unit-output-path" : "/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RootTabView.o",
+    "llvm-bc" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RootTabView.bc",
+    "object" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RootTabView.o",
+    "swift-dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RootTabView.swiftdeps",
+    "swiftmodule" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RootTabView~partial.swiftmodule"
+  },
+  "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Views/SavedContactsView.swift" : {
+    "const-values" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SavedContactsView.swiftconstvalues",
+    "dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SavedContactsView.d",
+    "diagnostics" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SavedContactsView.dia",
+    "index-unit-output-path" : "/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SavedContactsView.o",
+    "llvm-bc" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SavedContactsView.bc",
+    "object" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SavedContactsView.o",
+    "swift-dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SavedContactsView.swiftdeps",
+    "swiftmodule" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SavedContactsView~partial.swiftmodule"
+  },
+  "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Views/ScannerView.swift" : {
+    "const-values" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ScannerView.swiftconstvalues",
+    "dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ScannerView.d",
+    "diagnostics" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ScannerView.dia",
+    "index-unit-output-path" : "/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ScannerView.o",
+    "llvm-bc" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ScannerView.bc",
+    "object" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ScannerView.o",
+    "swift-dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ScannerView.swiftdeps",
+    "swiftmodule" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ScannerView~partial.swiftmodule"
+  },
+  "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Views/SettingsView.swift" : {
+    "const-values" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SettingsView.swiftconstvalues",
+    "dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SettingsView.d",
+    "diagnostics" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SettingsView.dia",
+    "index-unit-output-path" : "/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SettingsView.o",
+    "llvm-bc" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SettingsView.bc",
+    "object" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SettingsView.o",
+    "swift-dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SettingsView.swiftdeps",
+    "swiftmodule" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SettingsView~partial.swiftmodule"
+  },
+  "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Views/Sheets/NoteEditorView.swift" : {
+    "const-values" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/NoteEditorView.swiftconstvalues",
+    "dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/NoteEditorView.d",
+    "diagnostics" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/NoteEditorView.dia",
+    "index-unit-output-path" : "/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/NoteEditorView.o",
+    "llvm-bc" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/NoteEditorView.bc",
+    "object" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/NoteEditorView.o",
+    "swift-dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/NoteEditorView.swiftdeps",
+    "swiftmodule" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/NoteEditorView~partial.swiftmodule"
+  },
+  "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Views/Sheets/TemplateManagerView.swift" : {
+    "const-values" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplateManagerView.swiftconstvalues",
+    "dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplateManagerView.d",
+    "diagnostics" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplateManagerView.dia",
+    "index-unit-output-path" : "/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplateManagerView.o",
+    "llvm-bc" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplateManagerView.bc",
+    "object" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplateManagerView.o",
+    "swift-dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplateManagerView.swiftdeps",
+    "swiftmodule" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplateManagerView~partial.swiftmodule"
+  },
+  "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Views/TemplatesView.swift" : {
+    "const-values" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplatesView.swiftconstvalues",
+    "dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplatesView.d",
+    "diagnostics" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplatesView.dia",
+    "index-unit-output-path" : "/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplatesView.o",
+    "llvm-bc" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplatesView.bc",
+    "object" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplatesView.o",
+    "swift-dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplatesView.swiftdeps",
+    "swiftmodule" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplatesView~partial.swiftmodule"
+  },
+  "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/What_DirectApp.swift" : {
+    "const-values" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/What_DirectApp.swiftconstvalues",
+    "dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/What_DirectApp.d",
+    "diagnostics" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/What_DirectApp.dia",
+    "index-unit-output-path" : "/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/What_DirectApp.o",
+    "llvm-bc" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/What_DirectApp.bc",
+    "object" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/What_DirectApp.o",
+    "swift-dependencies" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/What_DirectApp.swiftdeps",
+    "swiftmodule" : "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/What_DirectApp~partial.swiftmodule"
+  }
+}

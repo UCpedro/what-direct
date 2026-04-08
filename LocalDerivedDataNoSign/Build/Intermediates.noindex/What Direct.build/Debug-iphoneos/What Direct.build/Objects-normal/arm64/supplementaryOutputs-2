@@ -1,0 +1,30 @@
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Utils/PhoneNumberFormatter.swift":
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/PhoneNumberFormatter.d"
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/PhoneNumberFormatter.o"
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/PhoneNumberFormatter.swiftconstvalues"
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/PhoneNumberFormatter.swiftdeps"
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/PhoneNumberFormatter.dia"
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Models/RecentEntry.swift":
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentEntry.swiftdeps"
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentEntry.o"
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentEntry.dia"
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentEntry.swiftconstvalues"
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentEntry.d"
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Utils/WhatsAppURLBuilder.swift":
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/WhatsAppURLBuilder.dia"
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/WhatsAppURLBuilder.d"
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/WhatsAppURLBuilder.swiftconstvalues"
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/WhatsAppURLBuilder.swiftdeps"
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/WhatsAppURLBuilder.o"
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Utils/ClipboardManager.swift":
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ClipboardManager.o"
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ClipboardManager.dia"
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ClipboardManager.swiftdeps"
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ClipboardManager.d"
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ClipboardManager.swiftconstvalues"
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Utils/RecentHistoryStore.swift":
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentHistoryStore.swiftconstvalues"
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentHistoryStore.o"
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentHistoryStore.swiftdeps"
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentHistoryStore.d"
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentHistoryStore.dia"

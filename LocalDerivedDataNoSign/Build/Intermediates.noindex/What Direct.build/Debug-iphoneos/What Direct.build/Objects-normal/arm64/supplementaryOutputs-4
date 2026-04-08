@@ -1,0 +1,24 @@
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Views/Components/QuickActionBarView.swift":
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/QuickActionBarView.o"
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/QuickActionBarView.swiftdeps"
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/QuickActionBarView.d"
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/QuickActionBarView.swiftconstvalues"
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/QuickActionBarView.dia"
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Utils/Haptics.swift":
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/Haptics.dia"
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/Haptics.o"
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/Haptics.swiftconstvalues"
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/Haptics.swiftdeps"
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/Haptics.d"
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Views/Components/ClipboardSuggestionCard.swift":
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ClipboardSuggestionCard.swiftdeps"
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ClipboardSuggestionCard.d"
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ClipboardSuggestionCard.swiftconstvalues"
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ClipboardSuggestionCard.dia"
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ClipboardSuggestionCard.o"
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Views/Components/TemplatePickerView.swift":
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplatePickerView.swiftdeps"
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplatePickerView.swiftconstvalues"
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplatePickerView.o"
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplatePickerView.d"
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplatePickerView.dia"

@@ -1,0 +1,24 @@
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Models/MessageTemplate.swift":
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign2/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/MessageTemplate.dia"
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign2/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/MessageTemplate.swiftdeps"
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign2/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/MessageTemplate.d"
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign2/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/MessageTemplate.swiftconstvalues"
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign2/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/MessageTemplate.o"
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Utils/TemplateStore.swift":
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign2/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplateStore.swiftconstvalues"
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign2/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplateStore.o"
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign2/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplateStore.swiftdeps"
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign2/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplateStore.dia"
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign2/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplateStore.d"
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Utils/CountryDetector.swift":
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign2/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/CountryDetector.d"
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign2/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/CountryDetector.swiftconstvalues"
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign2/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/CountryDetector.o"
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign2/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/CountryDetector.dia"
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign2/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/CountryDetector.swiftdeps"
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Models/WhatsAppPayload.swift":
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign2/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/WhatsAppPayload.swiftdeps"
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign2/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/WhatsAppPayload.d"
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign2/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/WhatsAppPayload.swiftconstvalues"
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign2/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/WhatsAppPayload.o"
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign2/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/WhatsAppPayload.dia"

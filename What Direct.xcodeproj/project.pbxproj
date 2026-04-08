@@ -23,13 +23,20 @@
 		WD0000000000000000000115 /* CountryDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000216 /* CountryDetector.swift */; };
 		WD0000000000000000000116 /* TemplateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000217 /* TemplateStore.swift */; };
 		WD0000000000000000000117 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000218 /* Haptics.swift */; };
-		WD0000000000000000000118 /* ClipboardSuggestionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000219 /* ClipboardSuggestionCard.swift */; };
-		WD0000000000000000000119 /* TemplatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000220 /* TemplatePickerView.swift */; };
-		WD0000000000000000000120 /* QuickActionBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000221 /* QuickActionBarView.swift */; };
-		WD0000000000000000000121 /* FavoriteNumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000222 /* FavoriteNumbersView.swift */; };
-		WD0000000000000000000122 /* RecentSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000223 /* RecentSectionView.swift */; };
-		WD0000000000000000000123 /* TemplateManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000224 /* TemplateManagerView.swift */; };
-		WD0000000000000000000124 /* NoteEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000225 /* NoteEditorView.swift */; };
+		WD0000000000000000000125 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000226 /* AppSettings.swift */; };
+		WD0000000000000000000126 /* SavedContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000227 /* SavedContact.swift */; };
+		WD0000000000000000000127 /* SavedContactsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000228 /* SavedContactsStore.swift */; };
+		WD0000000000000000000128 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000229 /* SettingsStore.swift */; };
+		WD0000000000000000000129 /* ConversationLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000230 /* ConversationLauncher.swift */; };
+		WD0000000000000000000130 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000231 /* RootTabView.swift */; };
+		WD0000000000000000000131 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000232 /* HistoryView.swift */; };
+		WD0000000000000000000132 /* SavedContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000233 /* SavedContactsView.swift */; };
+		WD0000000000000000000133 /* TemplatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000234 /* TemplatesView.swift */; };
+		WD0000000000000000000134 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000235 /* SettingsView.swift */; };
+		WD0000000000000000000135 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000236 /* ScannerView.swift */; };
+		WD0000000000000000000136 /* EmptyStateCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000237 /* EmptyStateCard.swift */; };
+		WD0000000000000000000137 /* CodableStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000238 /* CodableStore.swift */; };
+		WD0000000000000000000138 /* VisualSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000239 /* VisualSystem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,13 +58,20 @@
 		WD0000000000000000000216 /* CountryDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetector.swift; sourceTree = "<group>"; };
 		WD0000000000000000000217 /* TemplateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateStore.swift; sourceTree = "<group>"; };
 		WD0000000000000000000218 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
-		WD0000000000000000000219 /* ClipboardSuggestionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardSuggestionCard.swift; sourceTree = "<group>"; };
-		WD0000000000000000000220 /* TemplatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplatePickerView.swift; sourceTree = "<group>"; };
-		WD0000000000000000000221 /* QuickActionBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickActionBarView.swift; sourceTree = "<group>"; };
-		WD0000000000000000000222 /* FavoriteNumbersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteNumbersView.swift; sourceTree = "<group>"; };
-		WD0000000000000000000223 /* RecentSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentSectionView.swift; sourceTree = "<group>"; };
-		WD0000000000000000000224 /* TemplateManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateManagerView.swift; sourceTree = "<group>"; };
-		WD0000000000000000000225 /* NoteEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEditorView.swift; sourceTree = "<group>"; };
+		WD0000000000000000000226 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		WD0000000000000000000227 /* SavedContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedContact.swift; sourceTree = "<group>"; };
+		WD0000000000000000000228 /* SavedContactsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedContactsStore.swift; sourceTree = "<group>"; };
+		WD0000000000000000000229 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		WD0000000000000000000230 /* ConversationLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationLauncher.swift; sourceTree = "<group>"; };
+		WD0000000000000000000231 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		WD0000000000000000000232 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		WD0000000000000000000233 /* SavedContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedContactsView.swift; sourceTree = "<group>"; };
+		WD0000000000000000000234 /* TemplatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplatesView.swift; sourceTree = "<group>"; };
+		WD0000000000000000000235 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		WD0000000000000000000236 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		WD0000000000000000000237 /* EmptyStateCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateCard.swift; sourceTree = "<group>"; };
+		WD0000000000000000000238 /* CodableStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableStore.swift; sourceTree = "<group>"; };
+		WD0000000000000000000239 /* VisualSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualSystem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +119,12 @@
 			children = (
 				WD0000000000000000000202 /* HomeView.swift */,
 				WD0000000000000000000203 /* CountryPickerView.swift */,
+				WD0000000000000000000231 /* RootTabView.swift */,
+				WD0000000000000000000232 /* HistoryView.swift */,
+				WD0000000000000000000233 /* SavedContactsView.swift */,
+				WD0000000000000000000234 /* TemplatesView.swift */,
+				WD0000000000000000000235 /* SettingsView.swift */,
+				WD0000000000000000000236 /* ScannerView.swift */,
 				WD0000000000000000000409 /* Components */,
 				WD0000000000000000000410 /* Sheets */,
 			);
@@ -123,9 +143,11 @@
 			isa = PBXGroup;
 			children = (
 				WD0000000000000000000205 /* Country.swift */,
+				WD0000000000000000000226 /* AppSettings.swift */,
 				WD0000000000000000000209 /* RecentEntry.swift */,
 				WD0000000000000000000214 /* MessageTemplate.swift */,
 				WD0000000000000000000215 /* WhatsAppPayload.swift */,
+				WD0000000000000000000227 /* SavedContact.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -140,6 +162,10 @@
 				WD0000000000000000000216 /* CountryDetector.swift */,
 				WD0000000000000000000217 /* TemplateStore.swift */,
 				WD0000000000000000000218 /* Haptics.swift */,
+				WD0000000000000000000228 /* SavedContactsStore.swift */,
+				WD0000000000000000000229 /* SettingsStore.swift */,
+				WD0000000000000000000230 /* ConversationLauncher.swift */,
+				WD0000000000000000000238 /* CodableStore.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -156,11 +182,8 @@
 		WD0000000000000000000409 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				WD0000000000000000000219 /* ClipboardSuggestionCard.swift */,
-				WD0000000000000000000220 /* TemplatePickerView.swift */,
-				WD0000000000000000000221 /* QuickActionBarView.swift */,
-				WD0000000000000000000222 /* FavoriteNumbersView.swift */,
-				WD0000000000000000000223 /* RecentSectionView.swift */,
+				WD0000000000000000000237 /* EmptyStateCard.swift */,
+				WD0000000000000000000239 /* VisualSystem.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -168,8 +191,6 @@
 		WD0000000000000000000410 /* Sheets */ = {
 			isa = PBXGroup;
 			children = (
-				WD0000000000000000000224 /* TemplateManagerView.swift */,
-				WD0000000000000000000225 /* NoteEditorView.swift */,
 			);
 			path = Sheets;
 			sourceTree = "<group>";
@@ -258,13 +279,20 @@
 				WD0000000000000000000115 /* CountryDetector.swift in Sources */,
 				WD0000000000000000000116 /* TemplateStore.swift in Sources */,
 				WD0000000000000000000117 /* Haptics.swift in Sources */,
-				WD0000000000000000000118 /* ClipboardSuggestionCard.swift in Sources */,
-				WD0000000000000000000119 /* TemplatePickerView.swift in Sources */,
-				WD0000000000000000000120 /* QuickActionBarView.swift in Sources */,
-				WD0000000000000000000121 /* FavoriteNumbersView.swift in Sources */,
-				WD0000000000000000000122 /* RecentSectionView.swift in Sources */,
-				WD0000000000000000000123 /* TemplateManagerView.swift in Sources */,
-				WD0000000000000000000124 /* NoteEditorView.swift in Sources */,
+				WD0000000000000000000125 /* AppSettings.swift in Sources */,
+				WD0000000000000000000126 /* SavedContact.swift in Sources */,
+				WD0000000000000000000127 /* SavedContactsStore.swift in Sources */,
+				WD0000000000000000000128 /* SettingsStore.swift in Sources */,
+				WD0000000000000000000129 /* ConversationLauncher.swift in Sources */,
+				WD0000000000000000000130 /* RootTabView.swift in Sources */,
+				WD0000000000000000000131 /* HistoryView.swift in Sources */,
+				WD0000000000000000000132 /* SavedContactsView.swift in Sources */,
+				WD0000000000000000000133 /* TemplatesView.swift in Sources */,
+				WD0000000000000000000134 /* SettingsView.swift in Sources */,
+				WD0000000000000000000135 /* ScannerView.swift in Sources */,
+				WD0000000000000000000136 /* EmptyStateCard.swift in Sources */,
+				WD0000000000000000000137 /* CodableStore.swift in Sources */,
+				WD0000000000000000000138 /* VisualSystem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

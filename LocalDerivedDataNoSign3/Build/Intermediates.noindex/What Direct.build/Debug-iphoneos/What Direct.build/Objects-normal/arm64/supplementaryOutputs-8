@@ -1,0 +1,24 @@
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign3/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/DerivedSources/GeneratedAssetSymbols.swift":
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign3/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps"
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign3/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/GeneratedAssetSymbols.dia"
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign3/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues"
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign3/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign3/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/GeneratedAssetSymbols.d"
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Views/ScannerView.swift":
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign3/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ScannerView.o"
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign3/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ScannerView.swiftdeps"
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign3/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ScannerView.d"
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign3/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ScannerView.swiftconstvalues"
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign3/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ScannerView.dia"
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Views/SettingsView.swift":
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign3/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SettingsView.o"
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign3/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SettingsView.swiftdeps"
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign3/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SettingsView.d"
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign3/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SettingsView.swiftconstvalues"
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign3/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/SettingsView.dia"
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Views/TemplatesView.swift":
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign3/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplatesView.swiftdeps"
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign3/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplatesView.dia"
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign3/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplatesView.swiftconstvalues"
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign3/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplatesView.d"
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/LocalDerivedDataNoSign3/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplatesView.o"

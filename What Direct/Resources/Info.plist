@@ -33,6 +33,14 @@
     </array>
     <key>LSRequiresIPhoneOS</key>
     <true/>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>whatsapp</string>
+        <string>whatsapp-business</string>
+        <string>tg</string>
+    </array>
+    <key>NSCameraUsageDescription</key>
+    <string>What Direct usa la cámara para escanear números telefónicos desde texto.</string>
     <key>UIApplicationSceneManifest</key>
     <dict>
         <key>UIApplicationSupportsMultipleScenes</key>

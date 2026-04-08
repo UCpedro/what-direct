@@ -1,306 +1,525 @@
 import SwiftUI
 
 struct HomeView: View {
-    @StateObject private var viewModel = HomeViewModel()
+    @EnvironmentObject private var viewModel: HomeViewModel
+    @FocusState private var isInputFocused: Bool
+
     @State private var isShowingCountryPicker = false
-    @State private var isShowingTemplateManager = false
-    @State private var noteEditorEntry: RecentEntry?
-    @FocusState private var isPhoneFieldFocused: Bool
-    @AppStorage("selectedCountryCode") private var selectedCountryCode = Country.fallback.code
+    @State private var isShowingSaveContactSheet = false
+    @State private var isShowingScanner = false
 
     var body: some View {
-        ZStack {
-            LinearGradient(
-                colors: [
-                    Color(.systemBackground),
-                    Color.green.opacity(0.07),
-                    Color(.systemBackground)
-                ],
-                startPoint: .topLeading,
-                endPoint: .bottomTrailing
-            )
-            .ignoresSafeArea()
-
-            ScrollView(showsIndicators: false) {
-                VStack(spacing: 22) {
-                    header
-                    quickEntryCard
-
-                    if let clipboardSuggestion = viewModel.clipboardSuggestion {
-                        ClipboardSuggestionCard(number: clipboardSuggestion) {
-                            viewModel.useClipboardSuggestion()
-                            focusPhoneField()
-                        }
-                    }
-
-                    TemplatePickerView(
-                        templates: viewModel.templates,
-                        selectedTemplateID: viewModel.selectedTemplateID,
-                        onSelect: { template in
-                            viewModel.selectTemplate(template)
-                        },
-                        onManage: {
-                            isShowingTemplateManager = true
-                        }
-                    )
-
-                    if let payload = viewModel.payloadPreview {
-                        QuickActionBarView(
-                            shareLink: payload.url.absoluteString,
-                            onCopyLink: {
-                                viewModel.copyGeneratedLink()
-                            },
-                            onCopyNumber: {
-                                viewModel.copyCleanNumber()
-                            }
-                        )
-                    }
-
-                    FavoriteNumbersView(entries: viewModel.favoriteEntries) { entry in
-                        viewModel.openRecent(entry)
-                    }
-
-                    RecentSectionView(
-                        entries: viewModel.recentEntries,
-                        onTap: { entry in
-                            viewModel.openRecent(entry)
-                        },
-                        onToggleFavorite: { entry in
-                            viewModel.toggleFavorite(for: entry)
-                        },
-                        onEditNote: { entry in
-                            noteEditorEntry = entry
-                        },
-                        onDelete: { offsets in
-                            viewModel.deleteRecentEntries(at: offsets)
-                        }
-                    )
+        ScrollView(showsIndicators: false) {
+            VStack(spacing: viewModel.settings.quickModeEnabled ? 16 : 22) {
+                quickComposer
+                clipboardCard
+                templateStrip
+                if !viewModel.favoriteContacts.isEmpty || !viewModel.favoriteHistoryEntries.isEmpty {
+                    favoritesPreview
                 }
-                .padding(.horizontal, 20)
-                .padding(.vertical, 24)
-                .frame(maxWidth: 640)
             }
+            .padding(.horizontal, 20)
+            .padding(.vertical, 24)
         }
         .contentShape(Rectangle())
         .onTapGesture {
-            isPhoneFieldFocused = false
+            dismissKeyboard()
+        }
+        .background(WDBackground())
+        .navigationTitle("Inicio")
+        .navigationBarTitleDisplayMode(.inline)
+        .toolbarBackground(.thinMaterial, for: .navigationBar)
+        .toolbarBackground(.visible, for: .navigationBar)
+        .toolbar {
+            ToolbarItem(placement: .topBarTrailing) {
+                Button {
+                    isShowingScanner = true
+                } label: {
+                    Image(systemName: "text.viewfinder")
+                }
+            }
+
+            ToolbarItem(placement: .keyboard) {
+                Button("Ocultar") {
+                    dismissKeyboard()
+                }
+            }
         }
         .sheet(isPresented: $isShowingCountryPicker) {
-            CountryPickerView(
-                countries: viewModel.countries,
-                selectedCountry: $viewModel.selectedCountry
-            )
+            CountryPickerView()
+                .environmentObject(viewModel)
         }
-        .sheet(isPresented: $isShowingTemplateManager) {
-            TemplateManagerView(
-                templates: viewModel.templates,
-                onAdd: { title, body in
-                    viewModel.addTemplate(title: title, body: body)
-                },
-                onUpdate: { id, title, body in
-                    viewModel.updateTemplate(id: id, title: title, body: body)
-                },
-                onDelete: { offsets in
-                    viewModel.deleteTemplate(at: offsets)
-                }
-            )
+        .sheet(isPresented: $isShowingSaveContactSheet) {
+            ContactSaveSheet(initialNumber: viewModel.payload.cleanNumber) { name, note, category, isFavorite in
+                viewModel.saveCurrentNumberAsContact(name: name, note: note, category: category, isFavorite: isFavorite)
+            }
+            .presentationDetents([.medium, .large])
         }
-        .sheet(item: $noteEditorEntry) { entry in
-            NoteEditorView(entry: entry) { updatedEntry, note in
-                viewModel.updateNote(for: updatedEntry, note: note)
+        .sheet(isPresented: $isShowingScanner) {
+            ScannerView { number in
+                viewModel.useScannedNumber(number)
             }
         }
-        .onAppear {
-            viewModel.selectCountry(using: selectedCountryCode)
-            viewModel.refreshClipboardSuggestion()
-            focusPhoneField()
-        }
-        .onChange(of: viewModel.selectedCountry) { newCountry in
-            selectedCountryCode = newCountry.code
-        }
-        .onOpenURL { url in
-            guard url.scheme == "whatdirect" else { return }
-            viewModel.refreshClipboardSuggestion()
-            focusPhoneField()
-        }
-        .alert("Número inválido", isPresented: errorAlertBinding) {
+        .alert("Atención", isPresented: alertBinding) {
             Button("OK", role: .cancel) {
-                viewModel.errorMessage = nil
+                viewModel.alertMessage = nil
             }
         } message: {
-            Text(viewModel.errorMessage ?? "Revisa el número ingresado.")
+            Text(viewModel.alertMessage ?? "")
         }
-        .toolbar {
-            ToolbarItemGroup(placement: .keyboard) {
-                Spacer()
-                Button("Ocultar") {
-                    isPhoneFieldFocused = false
-                }
+        .task {
+            viewModel.onLaunch()
+            focusInput()
+        }
+        .onChange(of: viewModel.lastCopiedMessage) { _ in
+            guard viewModel.lastCopiedMessage != nil else { return }
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1.4) {
+                viewModel.clearCopiedFeedback()
             }
         }
     }
 
-    private var header: some View {
-        VStack(spacing: 10) {
-            Image(systemName: "message.circle.fill")
-                .font(.system(size: 58))
-                .foregroundStyle(Color.green)
-
-            Text("What Direct")
-                .font(.system(size: 36, weight: .bold, design: .rounded))
-
-            Text("WhatsApp directo, rápido y sin ruido.")
-                .font(.subheadline)
-                .foregroundStyle(.secondary)
-
-            Text("Directo a WhatsApp")
-                .font(.caption.weight(.semibold))
-                .foregroundStyle(Color.green)
-                .padding(.horizontal, 12)
-                .padding(.vertical, 7)
-                .background(
-                    Capsule(style: .continuous)
-                        .fill(Color.green.opacity(0.12))
-                )
-        }
-        .frame(maxWidth: .infinity)
-        .padding(.top, 12)
-    }
-
-    private var quickEntryCard: some View {
+    private var quickComposer: some View {
         VStack(spacing: 18) {
-            Button {
-                isShowingCountryPicker = true
-            } label: {
-                HStack(spacing: 12) {
-                    Text(viewModel.selectedCountry.flag)
-                        .font(.title2)
-                    VStack(alignment: .leading, spacing: 2) {
-                        Text(viewModel.selectedCountry.name)
-                            .font(.headline)
-                            .foregroundStyle(.primary)
-                        Text("Código \(viewModel.selectedCountry.code)")
-                            .font(.subheadline)
-                            .foregroundStyle(.secondary)
-                    }
-                    Spacer()
-                    Image(systemName: "chevron.up.chevron.down")
-                        .font(.footnote.weight(.semibold))
-                        .foregroundStyle(.secondary)
-                }
-                .padding(16)
-                .background(inputCardBackground)
-            }
-            .buttonStyle(.plain)
-
-            VStack(alignment: .leading, spacing: 10) {
-                Text("Número telefónico")
-                    .font(.headline)
-
-                HStack(spacing: 12) {
-                    Text(viewModel.selectedCountry.code)
-                        .font(.system(size: 24, weight: .bold, design: .rounded))
-                        .foregroundStyle(.secondary)
-
-                    Rectangle()
-                        .fill(Color.primary.opacity(0.08))
-                        .frame(width: 1, height: 28)
-
-                    TextField("912345678", text: $viewModel.phoneNumber)
-                        .keyboardType(.numberPad)
-                        .textContentType(.telephoneNumber)
-                        .focused($isPhoneFieldFocused)
-                        .font(.system(size: 30, weight: .semibold, design: .rounded))
-                        .onChange(of: viewModel.phoneNumber) { newValue in
-                            viewModel.syncPhoneNumber(newValue)
-                        }
-                }
-                .padding(18)
-                .background(inputCardBackground)
-
-                if let errorMessage = viewModel.errorMessage {
-                    Text(errorMessage)
-                        .font(.footnote)
-                        .foregroundStyle(.red)
-                }
-
-                if let selectedTemplate = viewModel.selectedTemplate {
-                    HStack(spacing: 8) {
-                        Image(systemName: "text.bubble")
-                            .foregroundStyle(Color.green)
-                        Text(selectedTemplate.title)
-                            .font(.subheadline.weight(.semibold))
-                        Spacer()
-                    }
-                    .foregroundStyle(.secondary)
-                }
-            }
-
-            Button {
-                isPhoneFieldFocused = false
-                viewModel.openWhatsApp()
-            } label: {
+            if let copiedMessage = viewModel.lastCopiedMessage {
                 HStack {
-                    Image(systemName: "paperplane.fill")
-                    Text("Abrir en WhatsApp")
+                    Spacer()
+                    WDBadge(title: copiedMessage, systemImage: "checkmark.circle.fill", tint: WDTheme.brand)
                 }
-                .font(.headline)
-                .foregroundStyle(.white)
-                .frame(maxWidth: .infinity)
-                .padding(.vertical, 18)
-                .background(
-                    RoundedRectangle(cornerRadius: 20, style: .continuous)
-                        .fill(
-                            LinearGradient(
-                                colors: [
-                                    Color(red: 0.12, green: 0.73, blue: 0.38),
-                                    Color(red: 0.06, green: 0.58, blue: 0.29)
-                                ],
-                                startPoint: .topLeading,
-                                endPoint: .bottomTrailing
-                            )
-                        )
+            }
+
+            VStack(alignment: .leading, spacing: 12) {
+                WDSectionTitle(
+                    eyebrow: "Acción principal",
+                    title: "Número directo",
+                    subtitle: "Selecciona prefijo, escribe el número y abre la conversación."
                 )
+
+                HStack(spacing: 10) {
+                    Button {
+                        isShowingCountryPicker = true
+                    } label: {
+                        HStack(spacing: 3) {
+                            Text(viewModel.selectedCountry.flag)
+                                .font(.system(size: 18))
+                            Text(viewModel.selectedCountry.code)
+                                .font(.system(size: viewModel.settings.quickModeEnabled ? 20 : 18, weight: .bold, design: .rounded))
+                                .lineLimit(1)
+                                .minimumScaleFactor(0.9)
+                            Image(systemName: "chevron.down")
+                                .font(.system(size: 10, weight: .bold))
+                        }
+                        .foregroundStyle(.primary)
+                        .padding(.horizontal, 8)
+                        .padding(.vertical, 9)
+                        .background(WDTheme.brandSoft, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+                    }
+                    .buttonStyle(.plain)
+                    .fixedSize(horizontal: true, vertical: false)
+
+                    Divider()
+                        .frame(height: 24)
+
+                    TextField("912345678", text: Binding(
+                        get: { viewModel.phoneInput },
+                        set: { viewModel.updatePhoneInput($0) }
+                    ))
+                    .keyboardType(.phonePad)
+                    .textContentType(.telephoneNumber)
+                    .focused($isInputFocused)
+                    .font(.system(size: viewModel.settings.quickModeEnabled ? 26 : 22, weight: .semibold, design: .rounded))
+                    .textInputAutocapitalization(.never)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                }
+                .padding(.horizontal, 14)
+                .padding(.vertical, 14)
+                .background(
+                    RoundedRectangle(cornerRadius: 24, style: .continuous)
+                        .fill(WDTheme.rowFill)
+                )
+                .overlay(
+                    RoundedRectangle(cornerRadius: 24, style: .continuous)
+                        .stroke(WDTheme.stroke, lineWidth: 1)
+                )
+
+                WDBadge(title: statusTitle, systemImage: statusIcon, tint: statusColor)
+
+                Text(viewModel.payload.validationMessage)
+                    .font(.footnote)
+                    .foregroundStyle(statusColor)
             }
-            .buttonStyle(.plain)
+
+            if let template = viewModel.selectedTemplate {
+                HStack {
+                    Label("Plantilla: \(template.title)", systemImage: "text.bubble.fill")
+                        .font(.subheadline.weight(.semibold))
+                    Spacer()
+                    Button("Quitar") {
+                        viewModel.selectTemplate(nil)
+                    }
+                    .font(.subheadline.weight(.semibold))
+                }
+                .foregroundStyle(WDTheme.mutedText)
+                .padding(.horizontal, 14)
+                .padding(.vertical, 12)
+                .background(WDTheme.brandSoft.opacity(0.7), in: RoundedRectangle(cornerRadius: 18, style: .continuous))
+            }
+
+            VStack(spacing: 12) {
+                primaryButton(title: "Abrir en \(viewModel.settings.defaultApp.title)", icon: viewModel.settings.defaultApp.systemImage) {
+                    dismissKeyboard()
+                    viewModel.openPreferredApp()
+                }
+
+                HStack(spacing: 12) {
+                    if viewModel.canOpen(.whatsapp) {
+                        secondaryButton(title: "WhatsApp", tint: WDTheme.brand) {
+                            viewModel.open(using: .whatsapp)
+                        }
+                    }
+
+                    if viewModel.canOpen(.whatsappBusiness) {
+                        secondaryButton(title: "Business", tint: .teal) {
+                            viewModel.open(using: .whatsappBusiness)
+                        }
+                    }
+                }
+
+                HStack(spacing: 12) {
+                    if viewModel.settings.showSMSShortcut {
+                        secondaryButton(title: "SMS", tint: .blue) {
+                            viewModel.open(using: .sms)
+                        }
+                    }
+
+                    if viewModel.settings.showTelegramShortcut, viewModel.canOpen(.telegram) {
+                        secondaryButton(title: "Telegram", tint: .indigo) {
+                            viewModel.open(using: .telegram)
+                        }
+                    }
+                }
+            }
+
+            VStack(spacing: 12) {
+                HStack(spacing: 12) {
+                    secondaryButton(title: "Guardar", tint: .orange) {
+                        isShowingSaveContactSheet = true
+                    }
+
+                    secondaryButton(title: "Copiar número", tint: .gray) {
+                        viewModel.copyCleanNumber()
+                    }
+                }
+
+                HStack(spacing: 12) {
+                    secondaryButton(title: "Copiar link", tint: .gray) {
+                        viewModel.copyGeneratedLink()
+                    }
+
+                    if let shareURL = viewModel.payload.waURL {
+                        ShareLink(item: shareURL) {
+                            labelButton(title: "Compartir link", tint: .gray)
+                        }
+                        .buttonStyle(.plain)
+                    }
+                }
+            }
         }
-        .padding(22)
-        .background(
-            RoundedRectangle(cornerRadius: 30, style: .continuous)
-                .fill(.ultraThinMaterial)
-        )
-        .overlay(
-            RoundedRectangle(cornerRadius: 30, style: .continuous)
-                .stroke(Color.primary.opacity(0.05), lineWidth: 1)
-        )
-        .shadow(color: Color.black.opacity(0.04), radius: 18, y: 10)
+        .wdCard(padding: 24)
     }
 
-    private var errorAlertBinding: Binding<Bool> {
+    @ViewBuilder
+    private var clipboardCard: some View {
+        if let clipboardSuggestion = viewModel.clipboardSuggestion {
+            VStack(alignment: .leading, spacing: 12) {
+                WDSectionTitle(
+                    eyebrow: "Portapapeles",
+                    title: "Número detectado",
+                    subtitle: "Puedes traerlo al campo sin pegarlo manualmente."
+                )
+                Text(PhoneNumberFormatter.display(clipboardSuggestion))
+                    .font(.title3.weight(.bold))
+                Button("Usarlo ahora") {
+                    viewModel.useClipboardSuggestion()
+                    focusInput()
+                }
+                .buttonStyle(.borderedProminent)
+                .tint(WDTheme.brand)
+            }
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .wdCard()
+        }
+    }
+
+    private var templateStrip: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            HStack(alignment: .top) {
+                WDSectionTitle(
+                    eyebrow: "Mensajes",
+                    title: "Plantillas",
+                    subtitle: "Usa un texto listo antes de abrir el chat."
+                )
+                Spacer()
+                NavigationLink("Ver todas") {
+                    TemplatesView()
+                        .environmentObject(viewModel)
+                }
+                .font(.subheadline.weight(.semibold))
+                .foregroundStyle(WDTheme.brand)
+            }
+
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack(spacing: 10) {
+                    templateChip(title: "Sin mensaje", selected: viewModel.selectedTemplate == nil) {
+                        viewModel.selectTemplate(nil)
+                    }
+
+                    ForEach(viewModel.favoriteTemplates.isEmpty ? viewModel.templates : viewModel.favoriteTemplates) { template in
+                        templateChip(title: template.title, selected: template.id == viewModel.selectedTemplateID) {
+                            viewModel.selectTemplate(template)
+                        }
+                    }
+                }
+            }
+            .padding(.top, 4)
+        }
+        .wdCard()
+    }
+
+    private var favoritesPreview: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            WDSectionTitle(
+                eyebrow: "Accesos rápidos",
+                title: "Favoritos",
+                subtitle: "Tus contactos y conversaciones más frecuentes."
+            )
+
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack(spacing: 12) {
+                    ForEach(viewModel.favoriteContacts.prefix(4)) { contact in
+                        favoriteCard(title: contact.name, subtitle: contact.note.isEmpty ? PhoneNumberFormatter.display(contact.fullNumber) : contact.note) {
+                            viewModel.openContact(contact)
+                        }
+                    }
+
+                    ForEach(viewModel.favoriteHistoryEntries.prefix(4)) { entry in
+                        favoriteCard(title: entry.alias.isEmpty ? PhoneNumberFormatter.display(entry.fullNumber) : entry.alias, subtitle: entry.app.title) {
+                            viewModel.openRecent(entry)
+                        }
+                    }
+                }
+            }
+            .padding(.top, 2)
+        }
+        .wdCard()
+    }
+
+    private func favoriteCard(title: String, subtitle: String, action: @escaping () -> Void) -> some View {
+        Button(action: action) {
+            VStack(alignment: .leading, spacing: 8) {
+                HStack {
+                    Image(systemName: "star.fill")
+                        .foregroundStyle(.yellow)
+                    Spacer()
+                    Image(systemName: "arrow.up.right")
+                        .foregroundStyle(WDTheme.mutedText)
+                }
+
+                Text(title)
+                    .font(.headline)
+                    .foregroundStyle(.primary)
+                    .lineLimit(2)
+
+                Text(subtitle)
+                    .font(.caption)
+                    .foregroundStyle(WDTheme.mutedText)
+                    .lineLimit(2)
+            }
+            .frame(width: 180, alignment: .leading)
+            .padding(18)
+            .background(
+                RoundedRectangle(cornerRadius: 22, style: .continuous)
+                    .fill(WDTheme.rowFill)
+            )
+            .overlay(
+                RoundedRectangle(cornerRadius: 22, style: .continuous)
+                    .stroke(WDTheme.stroke, lineWidth: 1)
+            )
+        }
+        .buttonStyle(.plain)
+    }
+
+    private func primaryButton(title: String, icon: String, action: @escaping () -> Void) -> some View {
+        Button(action: action) {
+            HStack {
+                Image(systemName: icon)
+                Text(title)
+            }
+            .font(.headline)
+            .foregroundStyle(.white)
+            .frame(maxWidth: .infinity)
+            .padding(.vertical, 17)
+            .background(
+                LinearGradient(
+                    colors: [WDTheme.brand, WDTheme.brand.opacity(0.82)],
+                    startPoint: .topLeading,
+                    endPoint: .bottomTrailing
+                ),
+                in: RoundedRectangle(cornerRadius: 18, style: .continuous)
+            )
+        }
+        .buttonStyle(.plain)
+    }
+
+    private func secondaryButton(title: String, tint: Color, action: @escaping () -> Void) -> some View {
+        Button(action: action) {
+            labelButton(title: title, tint: tint)
+        }
+        .buttonStyle(.plain)
+    }
+
+    private func labelButton(title: String, tint: Color) -> some View {
+        Text(title)
+            .font(.subheadline.weight(.semibold))
+            .foregroundStyle(tint)
+            .frame(maxWidth: .infinity)
+            .padding(.vertical, 14)
+            .background(tint.opacity(0.12), in: RoundedRectangle(cornerRadius: 18, style: .continuous))
+            .overlay(
+                RoundedRectangle(cornerRadius: 18, style: .continuous)
+                    .stroke(tint.opacity(0.10), lineWidth: 1)
+            )
+    }
+
+    private func templateChip(title: String, selected: Bool, action: @escaping () -> Void) -> some View {
+        Button(action: action) {
+            Text(title)
+                .font(.subheadline.weight(.semibold))
+                .foregroundStyle(selected ? .white : .primary)
+                .padding(.horizontal, 14)
+                .padding(.vertical, 10)
+                .background(selected ? WDTheme.brand : WDTheme.rowFill, in: Capsule())
+        }
+        .buttonStyle(.plain)
+    }
+
+    private var statusTitle: String {
+        switch viewModel.payload.validationState {
+        case .valid:
+            return "Válido"
+        case .incomplete:
+            return "Incompleto"
+        case .invalid:
+            return "Inválido"
+        }
+    }
+
+    private var statusIcon: String {
+        switch viewModel.payload.validationState {
+        case .valid:
+            return "checkmark.seal.fill"
+        case .incomplete:
+            return "hourglass"
+        case .invalid:
+            return "exclamationmark.triangle.fill"
+        }
+    }
+
+    private var statusColor: Color {
+        switch viewModel.payload.validationState {
+        case .valid:
+            return WDTheme.brand
+        case .incomplete:
+            return .orange
+        case .invalid:
+            return .red
+        }
+    }
+
+    private var alertBinding: Binding<Bool> {
         Binding(
-            get: { viewModel.errorMessage != nil },
-            set: { isPresented in
-                if !isPresented {
-                    viewModel.errorMessage = nil
+            get: { viewModel.alertMessage != nil },
+            set: { presented in
+                if !presented {
+                    viewModel.alertMessage = nil
                 }
             }
         )
     }
 
-    private var inputCardBackground: some View {
-        RoundedRectangle(cornerRadius: 20, style: .continuous)
-            .fill(Color(.secondarySystemBackground))
+    private func focusInput() {
+        DispatchQueue.main.async {
+            isInputFocused = true
+        }
     }
 
-    private func focusPhoneField() {
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
-            isPhoneFieldFocused = true
+    private func dismissKeyboard() {
+        isInputFocused = false
+    }
+}
+
+private struct ContactSaveSheet: View {
+    @Environment(\.dismiss) private var dismiss
+    @State private var name = ""
+    @State private var note = ""
+    @State private var category: ContactCategory = .client
+    @State private var isFavorite = true
+
+    let initialNumber: String
+    let onSave: (String, String, ContactCategory, Bool) -> Void
+
+    var body: some View {
+        NavigationStack {
+            Form {
+                Section("Número") {
+                    Text(PhoneNumberFormatter.display(initialNumber))
+                        .foregroundStyle(WDTheme.mutedText)
+                }
+
+                Section("Alias") {
+                    TextField("Ej: Cliente Juan", text: $name)
+                }
+
+                Section("Detalle") {
+                    Picker("Categoría", selection: $category) {
+                        ForEach(ContactCategory.allCases) { category in
+                            Text(category.title).tag(category)
+                        }
+                    }
+
+                    TextField("Nota corta", text: $note, axis: .vertical)
+                    Toggle("Marcar como favorito", isOn: $isFavorite)
+                }
+            }
+            .scrollContentBackground(.hidden)
+            .background(WDBackground())
+            .navigationTitle("Guardar temporal")
+            .toolbarBackground(.thinMaterial, for: .navigationBar)
+            .toolbarBackground(.visible, for: .navigationBar)
+            .toolbar {
+                ToolbarItem(placement: .topBarLeading) {
+                    Button("Cancelar") {
+                        dismiss()
+                    }
+                }
+
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button("Guardar") {
+                        onSave(name, note, category, isFavorite)
+                        dismiss()
+                    }
+                    .fontWeight(.semibold)
+                }
+            }
         }
     }
 }
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView()
+        NavigationStack {
+            HomeView()
+                .environmentObject(HomeViewModel())
+        }
     }
 }
