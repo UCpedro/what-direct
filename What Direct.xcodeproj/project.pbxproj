@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		WD0000000000000000000101 /* What_DirectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000201 /* What_DirectApp.swift */; };
+		WD0000000000000000000102 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000202 /* HomeView.swift */; };
+		WD0000000000000000000103 /* CountryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000203 /* CountryPickerView.swift */; };
+		WD0000000000000000000104 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000204 /* HomeViewModel.swift */; };
+		WD0000000000000000000105 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000205 /* Country.swift */; };
+		WD0000000000000000000106 /* PhoneNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000206 /* PhoneNumberFormatter.swift */; };
+		WD0000000000000000000107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000207 /* Assets.xcassets */; };
+		WD0000000000000000000108 /* RecentEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000209 /* RecentEntry.swift */; };
+		WD0000000000000000000109 /* WhatsAppURLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000210 /* WhatsAppURLBuilder.swift */; };
+		WD0000000000000000000110 /* ClipboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000211 /* ClipboardManager.swift */; };
+		WD0000000000000000000111 /* RecentHistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000212 /* RecentHistoryStore.swift */; };
+		WD0000000000000000000112 /* RecentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000213 /* RecentListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		WD0000000000000000000200 /* What Direct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "What Direct.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		WD0000000000000000000201 /* What_DirectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = What_DirectApp.swift; sourceTree = "<group>"; };
+		WD0000000000000000000202 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		WD0000000000000000000203 /* CountryPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPickerView.swift; sourceTree = "<group>"; };
+		WD0000000000000000000204 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		WD0000000000000000000205 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		WD0000000000000000000206 /* PhoneNumberFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberFormatter.swift; sourceTree = "<group>"; };
+		WD0000000000000000000207 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		WD0000000000000000000208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		WD0000000000000000000209 /* RecentEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentEntry.swift; sourceTree = "<group>"; };
+		WD0000000000000000000210 /* WhatsAppURLBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsAppURLBuilder.swift; sourceTree = "<group>"; };
+		WD0000000000000000000211 /* ClipboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardManager.swift; sourceTree = "<group>"; };
+		WD0000000000000000000212 /* RecentHistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentHistoryStore.swift; sourceTree = "<group>"; };
+		WD0000000000000000000213 /* RecentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		WD0000000000000000000301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		WD0000000000000000000400 = {
+			isa = PBXGroup;
+			children = (
+				WD0000000000000000000401 /* What Direct */,
+				WD0000000000000000000402 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		WD0000000000000000000401 /* What Direct */ = {
+			isa = PBXGroup;
+			children = (
+				WD0000000000000000000201 /* What_DirectApp.swift */,
+				WD0000000000000000000403 /* Views */,
+				WD0000000000000000000404 /* ViewModels */,
+				WD0000000000000000000405 /* Models */,
+				WD0000000000000000000406 /* Utils */,
+				WD0000000000000000000407 /* Resources */,
+			);
+			path = "What Direct";
+			sourceTree = "<group>";
+		};
+		WD0000000000000000000402 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				WD0000000000000000000200 /* What Direct.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		WD0000000000000000000403 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				WD0000000000000000000202 /* HomeView.swift */,
+				WD0000000000000000000203 /* CountryPickerView.swift */,
+				WD0000000000000000000213 /* RecentListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		WD0000000000000000000404 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				WD0000000000000000000204 /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		WD0000000000000000000405 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				WD0000000000000000000205 /* Country.swift */,
+				WD0000000000000000000209 /* RecentEntry.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		WD0000000000000000000406 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				WD0000000000000000000206 /* PhoneNumberFormatter.swift */,
+				WD0000000000000000000210 /* WhatsAppURLBuilder.swift */,
+				WD0000000000000000000211 /* ClipboardManager.swift */,
+				WD0000000000000000000212 /* RecentHistoryStore.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		WD0000000000000000000407 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				WD0000000000000000000207 /* Assets.xcassets */,
+				WD0000000000000000000208 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		WD0000000000000000000500 /* What Direct */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = WD0000000000000000000701 /* Build configuration list for PBXNativeTarget "What Direct" */;
+			buildPhases = (
+				WD0000000000000000000601 /* Sources */,
+				WD0000000000000000000301 /* Frameworks */,
+				WD0000000000000000000602 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "What Direct";
+			productName = "What Direct";
+			productReference = WD0000000000000000000200 /* What Direct.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		WD0000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					WD0000000000000000000500 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = WD0000000000000000000700 /* Build configuration list for PBXProject "What Direct" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = WD0000000000000000000400;
+			productRefGroup = WD0000000000000000000402 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				WD0000000000000000000500 /* What Direct */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		WD0000000000000000000602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				WD0000000000000000000107 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		WD0000000000000000000601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				WD0000000000000000000101 /* What_DirectApp.swift in Sources */,
+				WD0000000000000000000102 /* HomeView.swift in Sources */,
+				WD0000000000000000000103 /* CountryPickerView.swift in Sources */,
+				WD0000000000000000000104 /* HomeViewModel.swift in Sources */,
+				WD0000000000000000000105 /* Country.swift in Sources */,
+				WD0000000000000000000106 /* PhoneNumberFormatter.swift in Sources */,
+				WD0000000000000000000108 /* RecentEntry.swift in Sources */,
+				WD0000000000000000000109 /* WhatsAppURLBuilder.swift in Sources */,
+				WD0000000000000000000110 /* ClipboardManager.swift in Sources */,
+				WD0000000000000000000111 /* RecentHistoryStore.swift in Sources */,
+				WD0000000000000000000112 /* RecentListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		WD0000000000000000000801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "What Direct/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedrosanmiguel.WhatDirect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		WD0000000000000000000802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "What Direct/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedrosanmiguel.WhatDirect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		WD0000000000000000000803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69SKD4YG4H;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "What Direct/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedrosanmiguel.WhatDirect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		WD0000000000000000000804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69SKD4YG4H;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "What Direct/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedrosanmiguel.WhatDirect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		WD0000000000000000000700 /* Build configuration list for PBXProject "What Direct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				WD0000000000000000000801 /* Debug */,
+				WD0000000000000000000802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		WD0000000000000000000701 /* Build configuration list for PBXNativeTarget "What Direct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				WD0000000000000000000803 /* Debug */,
+				WD0000000000000000000804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = WD0000000000000000000001 /* Project object */;
+}

@@ -1,0 +1,72 @@
+{
+  "source": "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Views/HomeView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Número inválido",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 142
+        }
+      },
+      {
+        "comment": "",
+        "key": "What Direct",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 27
+        }
+      },
+      {
+        "comment": "",
+        "key": "Abre una conversación en WhatsApp sin guardar el contacto.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 30
+        }
+      },
+      {
+        "comment": "",
+        "key": "Código %@",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 47
+        }
+      },
+      {
+        "comment": "",
+        "key": "Número telefónico",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 65
+        }
+      },
+      {
+        "comment": "",
+        "key": "912345678",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 68
+        }
+      },
+      {
+        "comment": "",
+        "key": "Abrir en WhatsApp",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 93
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 143
+        }
+      }
+    ]
+  },
+  "version": 1
+}

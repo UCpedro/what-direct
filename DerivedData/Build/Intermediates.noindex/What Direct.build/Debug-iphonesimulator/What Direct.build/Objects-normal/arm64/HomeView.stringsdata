@@ -1,0 +1,72 @@
+{
+  "source": "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Views/HomeView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Número inválido",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 161
+        }
+      },
+      {
+        "comment": "",
+        "key": "What Direct",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 28
+        }
+      },
+      {
+        "comment": "",
+        "key": "Código %@",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 43
+        }
+      },
+      {
+        "comment": "",
+        "key": "Número telefónico",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 58
+        }
+      },
+      {
+        "comment": "",
+        "key": "912345678",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 61
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pegar número",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 79
+        }
+      },
+      {
+        "comment": "",
+        "key": "Abrir en WhatsApp",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 100
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 162
+        }
+      }
+    ]
+  },
+  "version": 1
+}

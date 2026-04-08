@@ -1,0 +1,40 @@
+{
+  "source": "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Views/RecentListView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Aún no has abierto números recientes.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 20
+        }
+      },
+      {
+        "comment": "",
+        "key": "Recientes",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 11
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 14
+        }
+      },
+      {
+        "comment": "",
+        "key": "+%@",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 33
+        }
+      }
+    ]
+  },
+  "version": 1
+}
