@@ -1,0 +1,18 @@
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Views/Sheets/TemplateManagerView.swift":
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedData/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplateManagerView.swiftconstvalues"
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedData/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplateManagerView.d"
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedData/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplateManagerView.dia"
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedData/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplateManagerView.swiftdeps"
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedData/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplateManagerView.o"
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Views/Components/FavoriteNumbersView.swift":
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedData/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/FavoriteNumbersView.swiftdeps"
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedData/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/FavoriteNumbersView.swiftconstvalues"
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedData/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/FavoriteNumbersView.dia"
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedData/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/FavoriteNumbersView.o"
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedData/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/FavoriteNumbersView.d"
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Views/Components/RecentSectionView.swift":
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedData/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentSectionView.o"
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedData/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentSectionView.d"
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedData/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentSectionView.swiftconstvalues"
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedData/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentSectionView.dia"
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedData/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentSectionView.swiftdeps"

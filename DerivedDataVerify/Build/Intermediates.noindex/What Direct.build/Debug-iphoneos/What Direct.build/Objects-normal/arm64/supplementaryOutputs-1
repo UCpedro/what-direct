@@ -1,0 +1,18 @@
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Views/CountryPickerView.swift":
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/CountryPickerView.swiftconstvalues"
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/CountryPickerView.swiftdeps"
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/CountryPickerView.dia"
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/CountryPickerView.o"
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/CountryPickerView.d"
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Views/HomeView.swift":
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/HomeView.o"
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/HomeView.d"
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/HomeView.swiftconstvalues"
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/HomeView.swiftdeps"
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/HomeView.dia"
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/What_DirectApp.swift":
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/What_DirectApp.d"
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/What_DirectApp.dia"
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/What_DirectApp.o"
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/What_DirectApp.swiftconstvalues"
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/What_DirectApp.swiftdeps"

@@ -1,0 +1,18 @@
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Models/RecentEntry.swift":
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentEntry.dia"
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentEntry.d"
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentEntry.swiftconstvalues"
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentEntry.o"
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentEntry.swiftdeps"
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Utils/WhatsAppURLBuilder.swift":
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/WhatsAppURLBuilder.swiftdeps"
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/WhatsAppURLBuilder.o"
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/WhatsAppURLBuilder.d"
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/WhatsAppURLBuilder.dia"
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/WhatsAppURLBuilder.swiftconstvalues"
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Utils/ClipboardManager.swift":
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ClipboardManager.swiftdeps"
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ClipboardManager.swiftconstvalues"
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ClipboardManager.dia"
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ClipboardManager.d"
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ClipboardManager.o"

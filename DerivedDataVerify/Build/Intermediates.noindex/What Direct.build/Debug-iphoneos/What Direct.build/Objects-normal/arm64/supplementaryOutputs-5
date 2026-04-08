@@ -1,0 +1,18 @@
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Utils/TemplateStore.swift":
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplateStore.swiftconstvalues"
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplateStore.o"
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplateStore.d"
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplateStore.dia"
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplateStore.swiftdeps"
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Utils/Haptics.swift":
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/Haptics.o"
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/Haptics.swiftconstvalues"
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/Haptics.d"
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/Haptics.swiftdeps"
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/Haptics.dia"
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Utils/CountryDetector.swift":
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/CountryDetector.o"
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/CountryDetector.swiftdeps"
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/CountryDetector.dia"
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/CountryDetector.d"
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/CountryDetector.swiftconstvalues"

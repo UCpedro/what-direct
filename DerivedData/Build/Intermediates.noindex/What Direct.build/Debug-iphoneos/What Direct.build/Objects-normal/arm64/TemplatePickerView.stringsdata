@@ -1,0 +1,24 @@
+{
+  "source": "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Views/Components/TemplatePickerView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Plantillas",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 12
+        }
+      },
+      {
+        "comment": "",
+        "key": "Gestionar",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 15
+        }
+      }
+    ]
+  },
+  "version": 1
+}

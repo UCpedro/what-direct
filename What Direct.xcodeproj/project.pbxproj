@@ -18,8 +18,45 @@
 		WD0000000000000000000109 /* WhatsAppURLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000210 /* WhatsAppURLBuilder.swift */; };
 		WD0000000000000000000110 /* ClipboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000211 /* ClipboardManager.swift */; };
 		WD0000000000000000000111 /* RecentHistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000212 /* RecentHistoryStore.swift */; };
-		WD0000000000000000000112 /* RecentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000213 /* RecentListView.swift */; };
+		WD0000000000000000000113 /* MessageTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000214 /* MessageTemplate.swift */; };
+		WD0000000000000000000114 /* WhatsAppPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000215 /* WhatsAppPayload.swift */; };
+		WD0000000000000000000115 /* CountryDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000216 /* CountryDetector.swift */; };
+		WD0000000000000000000116 /* TemplateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000217 /* TemplateStore.swift */; };
+		WD0000000000000000000117 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000218 /* Haptics.swift */; };
+		WD0000000000000000000118 /* ClipboardSuggestionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000219 /* ClipboardSuggestionCard.swift */; };
+		WD0000000000000000000119 /* TemplatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000220 /* TemplatePickerView.swift */; };
+		WD0000000000000000000120 /* QuickActionBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000221 /* QuickActionBarView.swift */; };
+		WD0000000000000000000121 /* FavoriteNumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000222 /* FavoriteNumbersView.swift */; };
+		WD0000000000000000000122 /* RecentSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000223 /* RecentSectionView.swift */; };
+		WD0000000000000000000123 /* TemplateManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000224 /* TemplateManagerView.swift */; };
+		WD0000000000000000000124 /* NoteEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000225 /* NoteEditorView.swift */; };
+		WD0000000000000000000125 /* WhatDirectQuickWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000228 /* WhatDirectQuickWidget.swift */; };
+		WD0000000000000000000126 /* What Direct Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = WD0000000000000000000226 /* What Direct Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		WD0000000000000000000301 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = WD0000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = WD0000000000000000000501;
+			remoteInfo = "What Direct Widget";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		WD0000000000000000000411 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				WD0000000000000000000126 /* What Direct Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		WD0000000000000000000200 /* What Direct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "What Direct.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,11 +72,32 @@
 		WD0000000000000000000210 /* WhatsAppURLBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsAppURLBuilder.swift; sourceTree = "<group>"; };
 		WD0000000000000000000211 /* ClipboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardManager.swift; sourceTree = "<group>"; };
 		WD0000000000000000000212 /* RecentHistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentHistoryStore.swift; sourceTree = "<group>"; };
-		WD0000000000000000000213 /* RecentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentListView.swift; sourceTree = "<group>"; };
+		WD0000000000000000000214 /* MessageTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTemplate.swift; sourceTree = "<group>"; };
+		WD0000000000000000000215 /* WhatsAppPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsAppPayload.swift; sourceTree = "<group>"; };
+		WD0000000000000000000216 /* CountryDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetector.swift; sourceTree = "<group>"; };
+		WD0000000000000000000217 /* TemplateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateStore.swift; sourceTree = "<group>"; };
+		WD0000000000000000000218 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		WD0000000000000000000219 /* ClipboardSuggestionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardSuggestionCard.swift; sourceTree = "<group>"; };
+		WD0000000000000000000220 /* TemplatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplatePickerView.swift; sourceTree = "<group>"; };
+		WD0000000000000000000221 /* QuickActionBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickActionBarView.swift; sourceTree = "<group>"; };
+		WD0000000000000000000222 /* FavoriteNumbersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteNumbersView.swift; sourceTree = "<group>"; };
+		WD0000000000000000000223 /* RecentSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentSectionView.swift; sourceTree = "<group>"; };
+		WD0000000000000000000224 /* TemplateManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateManagerView.swift; sourceTree = "<group>"; };
+		WD0000000000000000000225 /* NoteEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEditorView.swift; sourceTree = "<group>"; };
+		WD0000000000000000000226 /* What Direct Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "What Direct Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		WD0000000000000000000227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		WD0000000000000000000228 /* WhatDirectQuickWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatDirectQuickWidget.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		WD0000000000000000000301 /* Frameworks */ = {
+		WD0000000000000000000601 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		WD0000000000000000000602 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -52,43 +110,55 @@
 		WD0000000000000000000400 = {
 			isa = PBXGroup;
 			children = (
-				WD0000000000000000000401 /* What Direct */,
-				WD0000000000000000000402 /* Products */,
+				WD0000000000000000000402 /* What Direct */,
+				WD0000000000000000000403 /* What Direct Widget */,
+				WD0000000000000000000401 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		WD0000000000000000000401 /* What Direct */ = {
-			isa = PBXGroup;
-			children = (
-				WD0000000000000000000201 /* What_DirectApp.swift */,
-				WD0000000000000000000403 /* Views */,
-				WD0000000000000000000404 /* ViewModels */,
-				WD0000000000000000000405 /* Models */,
-				WD0000000000000000000406 /* Utils */,
-				WD0000000000000000000407 /* Resources */,
-			);
-			path = "What Direct";
-			sourceTree = "<group>";
-		};
-		WD0000000000000000000402 /* Products */ = {
+		WD0000000000000000000401 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				WD0000000000000000000200 /* What Direct.app */,
+				WD0000000000000000000226 /* What Direct Widget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		WD0000000000000000000403 /* Views */ = {
+		WD0000000000000000000402 /* What Direct */ = {
+			isa = PBXGroup;
+			children = (
+				WD0000000000000000000201 /* What_DirectApp.swift */,
+				WD0000000000000000000404 /* Views */,
+				WD0000000000000000000405 /* ViewModels */,
+				WD0000000000000000000406 /* Models */,
+				WD0000000000000000000407 /* Utils */,
+				WD0000000000000000000408 /* Resources */,
+			);
+			path = "What Direct";
+			sourceTree = "<group>";
+		};
+		WD0000000000000000000403 /* What Direct Widget */ = {
+			isa = PBXGroup;
+			children = (
+				WD0000000000000000000228 /* WhatDirectQuickWidget.swift */,
+				WD0000000000000000000227 /* Info.plist */,
+			);
+			path = "What Direct Widget";
+			sourceTree = "<group>";
+		};
+		WD0000000000000000000404 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				WD0000000000000000000202 /* HomeView.swift */,
 				WD0000000000000000000203 /* CountryPickerView.swift */,
-				WD0000000000000000000213 /* RecentListView.swift */,
+				WD0000000000000000000409 /* Components */,
+				WD0000000000000000000410 /* Sheets */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		WD0000000000000000000404 /* ViewModels */ = {
+		WD0000000000000000000405 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
 				WD0000000000000000000204 /* HomeViewModel.swift */,
@@ -96,27 +166,32 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		WD0000000000000000000405 /* Models */ = {
+		WD0000000000000000000406 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				WD0000000000000000000205 /* Country.swift */,
 				WD0000000000000000000209 /* RecentEntry.swift */,
+				WD0000000000000000000214 /* MessageTemplate.swift */,
+				WD0000000000000000000215 /* WhatsAppPayload.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		WD0000000000000000000406 /* Utils */ = {
+		WD0000000000000000000407 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
 				WD0000000000000000000206 /* PhoneNumberFormatter.swift */,
 				WD0000000000000000000210 /* WhatsAppURLBuilder.swift */,
 				WD0000000000000000000211 /* ClipboardManager.swift */,
 				WD0000000000000000000212 /* RecentHistoryStore.swift */,
+				WD0000000000000000000216 /* CountryDetector.swift */,
+				WD0000000000000000000217 /* TemplateStore.swift */,
+				WD0000000000000000000218 /* Haptics.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		WD0000000000000000000407 /* Resources */ = {
+		WD0000000000000000000408 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				WD0000000000000000000207 /* Assets.xcassets */,
@@ -125,25 +200,65 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		WD0000000000000000000409 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				WD0000000000000000000219 /* ClipboardSuggestionCard.swift */,
+				WD0000000000000000000220 /* TemplatePickerView.swift */,
+				WD0000000000000000000221 /* QuickActionBarView.swift */,
+				WD0000000000000000000222 /* FavoriteNumbersView.swift */,
+				WD0000000000000000000223 /* RecentSectionView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		WD0000000000000000000410 /* Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				WD0000000000000000000224 /* TemplateManagerView.swift */,
+				WD0000000000000000000225 /* NoteEditorView.swift */,
+			);
+			path = Sheets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
 		WD0000000000000000000500 /* What Direct */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = WD0000000000000000000701 /* Build configuration list for PBXNativeTarget "What Direct" */;
+			buildConfigurationList = WD0000000000000000000901 /* Build configuration list for PBXNativeTarget "What Direct" */;
 			buildPhases = (
-				WD0000000000000000000601 /* Sources */,
-				WD0000000000000000000301 /* Frameworks */,
-				WD0000000000000000000602 /* Resources */,
+				WD0000000000000000000701 /* Sources */,
+				WD0000000000000000000601 /* Frameworks */,
+				WD0000000000000000000801 /* Resources */,
+				WD0000000000000000000411 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				WD0000000000000000001001 /* PBXTargetDependency */,
 			);
 			name = "What Direct";
 			productName = "What Direct";
 			productReference = WD0000000000000000000200 /* What Direct.app */;
 			productType = "com.apple.product-type.application";
+		};
+		WD0000000000000000000501 /* What Direct Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = WD0000000000000000000902 /* Build configuration list for PBXNativeTarget "What Direct Widget" */;
+			buildPhases = (
+				WD0000000000000000000702 /* Sources */,
+				WD0000000000000000000602 /* Frameworks */,
+				WD0000000000000000000802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "What Direct Widget";
+			productName = "What Direct Widget";
+			productReference = WD0000000000000000000226 /* What Direct Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -158,9 +273,12 @@
 					WD0000000000000000000500 = {
 						CreatedOnToolsVersion = 16.0;
 					};
+					WD0000000000000000000501 = {
+						CreatedOnToolsVersion = 16.0;
+					};
 				};
 			};
-			buildConfigurationList = WD0000000000000000000700 /* Build configuration list for PBXProject "What Direct" */;
+			buildConfigurationList = WD0000000000000000000900 /* Build configuration list for PBXProject "What Direct" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -169,17 +287,18 @@
 				Base,
 			);
 			mainGroup = WD0000000000000000000400;
-			productRefGroup = WD0000000000000000000402 /* Products */;
+			productRefGroup = WD0000000000000000000401 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				WD0000000000000000000500 /* What Direct */,
+				WD0000000000000000000501 /* What Direct Widget */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		WD0000000000000000000602 /* Resources */ = {
+		WD0000000000000000000801 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -187,10 +306,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		WD0000000000000000000802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		WD0000000000000000000601 /* Sources */ = {
+		WD0000000000000000000701 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -204,51 +330,76 @@
 				WD0000000000000000000109 /* WhatsAppURLBuilder.swift in Sources */,
 				WD0000000000000000000110 /* ClipboardManager.swift in Sources */,
 				WD0000000000000000000111 /* RecentHistoryStore.swift in Sources */,
-				WD0000000000000000000112 /* RecentListView.swift in Sources */,
+				WD0000000000000000000113 /* MessageTemplate.swift in Sources */,
+				WD0000000000000000000114 /* WhatsAppPayload.swift in Sources */,
+				WD0000000000000000000115 /* CountryDetector.swift in Sources */,
+				WD0000000000000000000116 /* TemplateStore.swift in Sources */,
+				WD0000000000000000000117 /* Haptics.swift in Sources */,
+				WD0000000000000000000118 /* ClipboardSuggestionCard.swift in Sources */,
+				WD0000000000000000000119 /* TemplatePickerView.swift in Sources */,
+				WD0000000000000000000120 /* QuickActionBarView.swift in Sources */,
+				WD0000000000000000000121 /* FavoriteNumbersView.swift in Sources */,
+				WD0000000000000000000122 /* RecentSectionView.swift in Sources */,
+				WD0000000000000000000123 /* TemplateManagerView.swift in Sources */,
+				WD0000000000000000000124 /* NoteEditorView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		WD0000000000000000000702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				WD0000000000000000000125 /* WhatDirectQuickWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		WD0000000000000000001001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = WD0000000000000000000501 /* What Direct Widget */;
+			targetProxy = WD0000000000000000000301 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		WD0000000000000000000801 /* Debug */ = {
+		WD0000000000000000001101 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				ENABLE_PREVIEWS = YES;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				DEVELOPMENT_TEAM = 69SKD4YG4H;
+				MARKETING_VERSION = 1.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		WD0000000000000000001102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69SKD4YG4H;
+				MARKETING_VERSION = 1.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		WD0000000000000000001111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69SKD4YG4H;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "What Direct/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -257,7 +408,6 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pedrosanmiguel.WhatDirect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -268,43 +418,14 @@
 			};
 			name = Debug;
 		};
-		WD0000000000000000000802 /* Release */ = {
+		WD0000000000000000001112 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				ENABLE_PREVIEWS = YES;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				DEVELOPMENT_TEAM = 69SKD4YG4H;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "What Direct/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -324,38 +445,54 @@
 			};
 			name = Release;
 		};
-		WD0000000000000000000803 /* Debug */ = {
+		WD0000000000000000001121 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = YES;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 69SKD4YG4H;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "What Direct/Resources/Info.plist";
+				INFOPLIST_FILE = "What Direct Widget/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pedrosanmiguel.WhatDirect;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedrosanmiguel.WhatDirect.Widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		WD0000000000000000000804 /* Release */ = {
+		WD0000000000000000001122 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = YES;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 69SKD4YG4H;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "What Direct/Resources/Info.plist";
+				INFOPLIST_FILE = "What Direct Widget/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pedrosanmiguel.WhatDirect;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedrosanmiguel.WhatDirect.Widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -365,20 +502,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		WD0000000000000000000700 /* Build configuration list for PBXProject "What Direct" */ = {
+		WD0000000000000000000900 /* Build configuration list for PBXProject "What Direct" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				WD0000000000000000000801 /* Debug */,
-				WD0000000000000000000802 /* Release */,
+				WD0000000000000000001101 /* Debug */,
+				WD0000000000000000001102 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		WD0000000000000000000701 /* Build configuration list for PBXNativeTarget "What Direct" */ = {
+		WD0000000000000000000901 /* Build configuration list for PBXNativeTarget "What Direct" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				WD0000000000000000000803 /* Debug */,
-				WD0000000000000000000804 /* Release */,
+				WD0000000000000000001111 /* Debug */,
+				WD0000000000000000001112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		WD0000000000000000000902 /* Build configuration list for PBXNativeTarget "What Direct Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				WD0000000000000000001121 /* Debug */,
+				WD0000000000000000001122 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

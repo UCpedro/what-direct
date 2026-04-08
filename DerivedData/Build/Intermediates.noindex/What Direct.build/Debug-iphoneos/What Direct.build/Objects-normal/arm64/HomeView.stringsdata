@@ -7,55 +7,7 @@
         "key": "Número inválido",
         "location": {
           "startingColumn": 16,
-          "startingLine": 142
-        }
-      },
-      {
-        "comment": "",
-        "key": "What Direct",
-        "location": {
-          "startingColumn": 26,
-          "startingLine": 27
-        }
-      },
-      {
-        "comment": "",
-        "key": "Abre una conversación en WhatsApp sin guardar el contacto.",
-        "location": {
-          "startingColumn": 26,
-          "startingLine": 30
-        }
-      },
-      {
-        "comment": "",
-        "key": "Código %@",
-        "location": {
-          "startingColumn": 38,
-          "startingLine": 47
-        }
-      },
-      {
-        "comment": "",
-        "key": "Número telefónico",
-        "location": {
-          "startingColumn": 30,
-          "startingLine": 65
-        }
-      },
-      {
-        "comment": "",
-        "key": "912345678",
-        "location": {
-          "startingColumn": 35,
-          "startingLine": 68
-        }
-      },
-      {
-        "comment": "",
-        "key": "Abrir en WhatsApp",
-        "location": {
-          "startingColumn": 30,
-          "startingLine": 93
+          "startingLine": 126
         }
       },
       {
@@ -63,7 +15,71 @@
         "key": "OK",
         "location": {
           "startingColumn": 20,
-          "startingLine": 143
+          "startingLine": 127
+        }
+      },
+      {
+        "comment": "",
+        "key": "Ocultar",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 136
+        }
+      },
+      {
+        "comment": "",
+        "key": "What Direct",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 149
+        }
+      },
+      {
+        "comment": "",
+        "key": "WhatsApp directo, rápido y sin ruido.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 152
+        }
+      },
+      {
+        "comment": "",
+        "key": "Directo a WhatsApp",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 156
+        }
+      },
+      {
+        "comment": "",
+        "key": "Código %@",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 182
+        }
+      },
+      {
+        "comment": "",
+        "key": "Número telefónico",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 197
+        }
+      },
+      {
+        "comment": "",
+        "key": "912345678",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 209
+        }
+      },
+      {
+        "comment": "",
+        "key": "Abrir en WhatsApp",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 245
         }
       }
     ]

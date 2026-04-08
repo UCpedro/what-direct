@@ -1,0 +1,18 @@
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Models/WhatsAppPayload.swift":
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedData/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/WhatsAppPayload.swiftconstvalues"
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedData/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/WhatsAppPayload.o"
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedData/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/WhatsAppPayload.dia"
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedData/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/WhatsAppPayload.swiftdeps"
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedData/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/WhatsAppPayload.d"
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Utils/RecentHistoryStore.swift":
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedData/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentHistoryStore.swiftdeps"
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedData/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentHistoryStore.swiftconstvalues"
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedData/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentHistoryStore.d"
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedData/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentHistoryStore.dia"
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedData/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/RecentHistoryStore.o"
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Models/MessageTemplate.swift":
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedData/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/MessageTemplate.d"
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedData/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/MessageTemplate.o"
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedData/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/MessageTemplate.swiftdeps"
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedData/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/MessageTemplate.dia"
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedData/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/MessageTemplate.swiftconstvalues"

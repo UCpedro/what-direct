@@ -1,0 +1,18 @@
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Utils/PhoneNumberFormatter.swift":
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify2/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/PhoneNumberFormatter.d"
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify2/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/PhoneNumberFormatter.o"
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify2/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/PhoneNumberFormatter.swiftconstvalues"
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify2/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/PhoneNumberFormatter.swiftdeps"
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify2/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/PhoneNumberFormatter.dia"
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Models/Country.swift":
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify2/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/Country.d"
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify2/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/Country.dia"
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify2/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/Country.swiftdeps"
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify2/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/Country.o"
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify2/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/Country.swiftconstvalues"
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/ViewModels/HomeViewModel.swift":
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify2/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/HomeViewModel.o"
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify2/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/HomeViewModel.dia"
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify2/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/HomeViewModel.swiftconstvalues"
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify2/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/HomeViewModel.swiftdeps"
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify2/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/HomeViewModel.d"

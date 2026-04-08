@@ -9,13 +9,12 @@ struct RecentHistoryStore {
     }
 
     func load() -> [RecentEntry] {
-        guard let data = userDefaults.data(forKey: storageKey) else { return [] }
-
-        do {
-            return try JSONDecoder().decode([RecentEntry].self, from: data)
-        } catch {
+        guard let data = userDefaults.data(forKey: storageKey),
+              let entries = try? JSONDecoder().decode([RecentEntry].self, from: data) else {
             return []
         }
+
+        return entries
     }
 
     func save(_ entries: [RecentEntry]) {

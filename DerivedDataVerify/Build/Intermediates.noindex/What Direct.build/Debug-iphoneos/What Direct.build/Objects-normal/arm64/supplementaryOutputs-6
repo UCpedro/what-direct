@@ -1,0 +1,18 @@
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Views/Components/TemplatePickerView.swift":
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplatePickerView.dia"
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplatePickerView.o"
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplatePickerView.d"
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplatePickerView.swiftconstvalues"
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/TemplatePickerView.swiftdeps"
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Views/Components/QuickActionBarView.swift":
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/QuickActionBarView.swiftdeps"
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/QuickActionBarView.d"
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/QuickActionBarView.dia"
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/QuickActionBarView.o"
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/QuickActionBarView.swiftconstvalues"
+"/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Views/Components/ClipboardSuggestionCard.swift":
+  const-values: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ClipboardSuggestionCard.swiftconstvalues"
+  dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ClipboardSuggestionCard.d"
+  object: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ClipboardSuggestionCard.o"
+  swift-dependencies: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ClipboardSuggestionCard.swiftdeps"
+  diagnostics: "/Users/pedrosanmiguel/Desktop/Apps/What direct/DerivedDataVerify/Build/Intermediates.noindex/What Direct.build/Debug-iphoneos/What Direct.build/Objects-normal/arm64/ClipboardSuggestionCard.dia"

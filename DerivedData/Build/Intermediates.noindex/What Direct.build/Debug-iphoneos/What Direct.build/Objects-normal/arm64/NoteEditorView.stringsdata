@@ -1,0 +1,56 @@
+{
+  "source": "/Users/pedrosanmiguel/Desktop/Apps/What direct/What Direct/Views/Sheets/NoteEditorView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Editar nota",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 28
+        }
+      },
+      {
+        "comment": "",
+        "key": "Número",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 19
+        }
+      },
+      {
+        "comment": "",
+        "key": "Nota rápida",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 23
+        }
+      },
+      {
+        "comment": "",
+        "key": "Ej: cliente, gasfiter, Marketplace",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 24
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancelar",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 31
+        }
+      },
+      {
+        "comment": "",
+        "key": "Guardar",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 37
+        }
+      }
+    ]
+  },
+  "version": 1
+}

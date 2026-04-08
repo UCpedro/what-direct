@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'What Direct' in project 'What Direct'
+➜ Explicit dependency on target 'What Direct Widget' in project 'What Direct'
+Target 'What Direct Widget' in project 'What Direct' (no dependencies)
